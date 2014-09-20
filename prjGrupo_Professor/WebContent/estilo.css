@@ -1,0 +1,90 @@
+@CHARSET "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 30px;
+	background-color: #9D2E2C;
+	font-family: sans-serif;
+}
+
+fieldset {
+	display: block;
+	border: 1px solid #FFF;
+	padding: 18px 18px 0;
+	margin: 0 0 10px;
+}
+
+legend {
+	display: block;
+	background-color: #FFF;
+	color: #000;
+	font-weight: bold;
+	padding: 0 5px;
+	font-size: 13px;
+}
+
+div {
+	clear: both;
+	overflow: hidden;
+	padding: 3px;
+	margin: 0 0 18px;
+	border: 2px solid #E7A555;
+	background-color: #F9EA99;
+	box-shadow: 1px 1px 15px #000;
+}
+
+div label {
+	display: block;
+	float: left;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0 10px 0 0;
+}
+
+div input {
+	display: block;
+	float: left;
+	padding: 0 5px;
+	font-size: 14px;
+	line-height: 18px;
+	border: 1px solid #7DB6D5;
+}
+
+div input:focus {
+	border-color: #000;
+}
+
+input[type="submit"] {
+	background-color: #E7A555;
+	font-weight: bold;
+	padding: 10px;
+	cursor: pointer;
+	border: 1px solid #FFF;
+}
+
+a {
+	background-color: #7DB6D5;
+	padding: 5px;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	float: left;
+	margin: 10px 0 0;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+table td,
+table th {
+	border: 2px solid #E7A555;
+	background-color: #F9EA99;
+	padding: 10px;
+	text-align: center;
+}
