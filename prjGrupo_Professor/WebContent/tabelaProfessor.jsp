@@ -20,18 +20,19 @@
 			<th>Disciplina Aplicada</th>
 			<th>Instituição a ministrar aula</th>
 		</tr>
-		<tr>
+		
 			<%
 				ArrayList<Professor> listaDeProfessores = (ArrayList<Professor>) session.getAttribute("listaDeProfessores");
 			
 				for(Professor pf : listaDeProfessores) {
+					out.print("<tr>");
 					out.print("<td>" + pf.getNome() + "</td>");
 					out.print("<td>" + pf.getSobrenome() + "</td>");
 					out.print("<td>" + pf.getIdade() + "</td>");
 					out.print("<td>" + pf.getAnoConclusaoFaculdade() + "</td>");
 					out.print("<td>" + pf.getDisciplinaAplicada() + "</td>");
 					out.print("<td>" + pf.getInstituicao() + "</td>");
-					
+					out.print("</tr>");
 				}
 			%>
 		</tr>

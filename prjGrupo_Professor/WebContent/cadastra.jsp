@@ -21,7 +21,12 @@
 	professor.setDisciplinaAplicada(request.getParameter( "disciplinaAplicada" ));
 	professor.setInstituicao(request.getParameter( "instituicao" ));
 	
-	List<Professor> professores = new ArrayList<Professor>();
+	
+	ArrayList<Professor> professores = (ArrayList) session.getAttribute("verifica");
+	if(professores == null) {  
+	    professores = new ArrayList();  
+	    session.setAttribute("verifica", professores);  
+	}  
 	
 	professores.add(professor);
 
