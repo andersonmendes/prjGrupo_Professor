@@ -26,16 +26,6 @@
 	professores.add(professor);
 
 	session.setAttribute("listaDeProfessores", professores);
- 
-// String anoConclusaoFaculdade = request.getParameter( "anoConclusaoFaculdade" );
-// session.setAttribute( "_anoConclusaoFaculdade", anoConclusaoFaculdade );
- 
- 
-// String disciplinaAplicada = request.getParameter( "disciplinaAplicada" );
-// session.setAttribute( "_disciplinaAplicada", disciplinaAplicada );
- 
-// String instituicao = request.getParameter( "instituicao" );
-// session.setAttribute( "_instituicao", instituicao );
  %>
  
  <a href="tabelaProfessor.jsp">Continuar >></a>
