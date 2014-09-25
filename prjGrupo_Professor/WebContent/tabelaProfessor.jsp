@@ -19,12 +19,9 @@
 			<th>Instituição a ministrar aula</th>
 		</tr>
 		<tr>
-			<td><%= session.getAttribute( "_nome" ) %></td>
-			<td><%= session.getAttribute( "_sobrenome" ) %></td>
-			<td><%= session.getAttribute( "_idade" ) %></td>
-			<td><%= session.getAttribute( "_anoConclusaoFaculdade" ) %></td>
-			<td><%= session.getAttribute( "_disciplinaAplicada" ) %></td>
-			<td><%= session.getAttribute( "_instituicao" ) %></td>
+			<%= 
+				session.getAttribute("listaDeProfessores")
+			%>
 		</tr>
 	</table>
 	
